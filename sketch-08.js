@@ -19,7 +19,7 @@ const params = {
 
 // Crear el panel de Tweakpane para ajustar estas variables
 const pane = new Tweakpane.Pane();
-pane.addInput(params, 'numAgents', { min: 10, max: 100, step: 1 });
+pane.addInput(params, 'numAgents', { min: 10, max: 40, step: 1 });
 pane.addInput(params, 'agentSpeed', { min: 0.1, max: 1, step: 0.1 });
 pane.addInput(params, 'lineThickness', { min: 1, max: 10, step: 0.1 });
 //pane.addInput(params, 'frequencyMultiplier', { min: 0.01, max: 0.5, step: 0.01 });
